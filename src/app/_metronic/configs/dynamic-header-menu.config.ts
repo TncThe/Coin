@@ -45,7 +45,7 @@ export const DynamicHeaderMenuConfig = {
             },
             {
               title: 'Prime Landing',
-              translate: 'MENU.SERVICES_PS_PRIME_LANDING',
+              translate: 'MENU.SERVICES_PS_PRIME_LENDING',
               page: '/services/prime/prime-landing',
             },
             {
