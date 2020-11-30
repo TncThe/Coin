@@ -1,0 +1,330 @@
+
+<!-- compact -->
+<ng-container *ngIf="footerLayout === 'compact'">
+  <!--begin::Container-->
+  <div
+    [ngClass]="footerContainerCSSClasses"
+    class="d-flex flex-column flex-md-row align-items-center justify-content-between"
+  >
+    <!--begin::Copyright-->
+    <div class="text-dark order-2 order-md-1">
+      <span class="text-muted font-weight-bold mr-2"
+        >{{ currentYear }} &copy;</span
+      >
+      <a
+        href="http://keenthemes.com/metronic"
+        target="_blank"
+        class="text-dark-75 text-hover-primary"
+        >Keenthemes</a
+      >
+    </div>
+    <!--end::Copyright-->
+
+    <!--begin::Nav-->
+    <div class="nav nav-dark order-1 order-md-2">
+      <a
+        href="http://keenthemes.com/metronic"
+        target="_blank"
+        class="nav-link pr-3 pl-0"
+        >About</a
+      >
+      <a
+        href="http://keenthemes.com/metronic"
+        target="_blank"
+        class="nav-link px-3"
+        >Team</a
+      >
+      <a
+        href="http://keenthemes.com/metronic"
+        target="_blank"
+        class="nav-link pl-3 pr-0"
+        >Contact</a
+      >
+    </div>
+    <!--end::Nav-->
+  </div>
+  <!--end::Container-->
+</ng-container>
+<!-- extended -->
+<ng-container *ngIf="footerLayout === 'extended'">
+  <!--begin::Container-->
+  <div [ngClass]="footerContainerCSSClasses" class="container py-lg-18 py-8">
+    <!--begin::Row-->
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <img
+          alt="Logo"
+          src="./assets/media/logos/geliyoo-wt.png"
+          class="logo-sticky max-h-60px max-h-100px"
+          width="100px"
+          />
+        </div>
+        <br>
+        <div class="row">
+          <h4 class="text-white pb-3">{{'SHARED.HEADER_TEXT' | translate}}</h4>
+        </div>
+        <div class="row">
+          <a href="#" class="btn btn-white font-weight-bold py-3 px-6 mr-2">
+            {{'SHARED.CONNECT_WITH_US' | translate}}
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <h4 class="text-white pb-3">{{'FOOTER.NEWSLETTER' | translate}}</h4>
+        <form class="rounded" style="background-color: rgba(0, 0, 0, 0.2)">
+          <div class="input-group p-2 align-items-center">
+            <input
+              type="text"
+              class="form-control rounded-right border-0 bg-transparent text-white opacity-80"
+              placeholder="{{'FOOTER.EMAIL_PLACEHOLDER' | translate}}"
+            />
+            <div class="input-group-append p-0 mr-1">
+              <button
+                class="btn btn-fh btn-sm btn-white px-6 rounded-left"
+                type="button"
+              >
+              {{'FOOTER.SUBMIT' | translate}}
+              </button>
+            </div>
+          </div>
+        </form>
+        <span class="py-1 text-white opacity-55">
+          {{'FOOTER.PRIVACY_EXP' | translate}}
+        <a class="no-underline" href="/legal">
+          {{'FOOTER.PRIVACY_POLICY' | translate}}
+        </a>
+        .
+        </span>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <!--begin::Col-->
+      <div class="col-lg-3 my-lg-0 my-5">
+        <h5 class="text-white pb-3">{{'MENU.SERVICES_CUSTODY' | translate}}</h5>
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column mr-18">
+            <a href="/services/custody/wallet-platform" class="text-white opacity-55 text-hover-primary"
+              >{{'MENU.SERVICES_CUSTODY_WALLET_PLATFORM' | translate}}</a
+            >
+            <a href="/services/custody/qualified-custody" class="py-2 text-white opacity-55 text-hover-primary"
+              >{{'MENU.SERVICES_CUSTODY_QUALIFIED' | translate}}</a
+            >
+            <a href="/services/custody/self-managed-custody" class="text-white opacity-50 text-hover-primary"
+              >{{'MENU.SERVICES_CUSTODY_SELF_MANAGED' | translate}}</a
+            >
+          </div>
+          <br>
+        </div>
+        <br>
+        <br>
+        <h5 class="text-white pb-3">{{'MENU.RESOURCES' | translate}}</h5>
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column mr-18">
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.RESOURCES_CASE_STUDIES' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.RESOURCES_DIG_ASSET_INS' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.RESOURCES_CURR_AND_INTG' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.RESOURCES_CONTENT_LIB' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.RESOURCES_FORK_POLICY' | translate}}</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--end::Col-->
+
+      <!--begin::Col-->
+      <div class="col-lg-3 my-lg-0 my-5">
+        <h5 class="text-white pb-3">{{'MENU.SERVICES_PRIME_SERVICES' | translate}}</h5>
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column mr-18">
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.SERVICES_PS_PRIME_TRADING' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.SERVICES_PS_PRIME_LENDING' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-50 text-hover-primary"
+              >{{'MENU.SERVICES_PS_SETTLEMENT' | translate}}</a
+            >
+          </div>
+          <br>
+        </div>
+        <br>
+        <br>
+        <h5 class="text-white pb-3">{{'MENU.COMPANY' | translate}}</h5>
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column mr-18">
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.COMPANY_ABOUT' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.COMPANY_NEWSROOM' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.COMPANY_BLOG' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.COMPANY_CAREER' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'MENU.COMPANY_LEGAL' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-50 text-hover-primary"
+              >{{'MENU.COMPANY_PRIVACY' | translate}}</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--end::Col-->
+      <!--begin::Col-->
+      <div class="col-lg-3 my-lg-0 my-5">
+        <h5 class="text-white pb-3">{{'MENU.SERVICES_PORTFOLIO_TOOLS' | translate}}</h5>
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column mr-18">
+            <a href="#" class="text-white opacity-55 text-hover-primary"
+              >{{'MENU.SERVICES_PT_PORTFOLIO_MANAGEMENT' | translate}}</a
+            >
+            <a href="#" class="py-2 text-white opacity-55 text-hover-primary"
+              >{{'MENU.SERVICES_PT_TAX' | translate}}</a
+            >
+            
+          </div>
+          <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h5 class="text-white pb-3">{{'FOOTER.HELP' | translate}}</h5>
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column mr-18">
+            <a href="#" class="text-white opacity-55 text-hover-primary"
+              >{{'SHARED.CONNECT_WITH_US' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'FOOTER.SUPPORT' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-55 text-hover-primary"
+              >{{'FOOTER.STATUS' | translate}}</a
+            >
+            <a href="#" class="py-1 text-white opacity-50 text-hover-primary"
+              >{{'FOOTER.BUG_BOUNTY' | translate}}</a
+            >
+          </div>
+        </div>
+      </div>
+      <!--end::Col-->
+
+      <!--begin::Col-->
+      <div class="col-lg-3 my-lg-0 my-5">
+        <h5 class="text-white pb-3">API</h5>
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column mr-18">
+            <a href="#" class="text-white opacity-55 text-hover-primary"
+              >{{'MENU.SERVICES_API_WALLETS_SDK' | translate}}</a
+            >
+            <a href="#" class="py-2 text-white opacity-55 text-hover-primary"
+              >{{'MENU.SERVICES_API_TRADE_EXECUTION_SDK' | translate}}</a
+            >
+          </div>
+          <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h5 class="text-white pb-3">{{'FOOTER.SALES_INQUIRIES' | translate}}</h5>
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column mr-18">
+            <a href="#" class="text-white opacity-55 text-hover-primary"
+              >xxxxx@xxx.xx</a
+            >
+          </div>
+        </div>
+        <br>
+        <br>
+        <h5 class="text-white pb-3">{{'FOOTER.PRESS_INQUIRIES' | translate}}</h5>
+        <div class="d-flex align-items-center">
+          <div class="d-flex flex-column mr-18">
+            <a href="#" class="text-white opacity-55 text-hover-primary"
+              >xxxxx@xxx.xxx</a
+            >
+          </div>
+        </div>
+        <br>
+        <br>
+        <h5 class="text-white pb-3">{{'FOOTER.SOCIAL' | translate}}</h5>
+        <div class="d-flex align-items-center">
+          <div class="row">
+            <div class="col">
+              <a href="http://www.twitter.com" target="_blank">
+                <img src="./assets/media/logos/twitter.png" alt="image"/>
+              </a>
+          </div>
+          <div class="col">
+            <a href="http://www.facebook.com" target="_blank">
+              <img src="./assets/media/logos/facebook.png" alt="image"/>
+            </a>
+          </div>
+          <div class="col">
+            <a href="http://www.linkedin.com" target="_blank">
+              <img src="./assets/media/logos/linkedin.png" alt="image"/>
+            </a>
+          </div>
+          <div class="col">
+            <a href="http://www.medium.com" target="_blank">
+              <img src="./assets/media/logos/medium.png" alt="image" style="background-color: aliceblue;"/>
+            </a>
+          </div>  
+          </div>
+        </div>
+      </div>
+      <!--end::Col-->
+
+      
+    </div>
+    <!--end::Row-->
+  </div>
+  <!--end::Container-->
+
+  <!--begin::Container-->
+  <div class="separator separator-solid opacity-7"></div>
+  <!--end::Container-->
+
+  <!--begin::Container-->
+  <div class="container py-8" [ngClass]="footerContainerCSSClasses">
+    <div
+      class="d-flex align-items-center justify-content-between flex-lg-row flex-column"
+    >
+      <!--begin::Copyright-->
+      <div class="d-flex align-items-center order-lg-1 order-2">
+        <img
+          alt="Logo"
+          src="./assets/media/logos/geliyoo-wt.png"
+          class="logo-sticky max-h-70px"
+        />
+        <span class="text-muted font-weight-bold mx-2"
+          >{{ currentYear }} ©</span
+        >
+        <a
+          href="http://keenthemes.com/metronic"
+          target="_blank"
+          class="text-primary text-hover-primary"
+          >Geliyoo</a
+        >
+      </div>
+      <!--end::Copyright-->
+
+      
+    </div>
+  </div>
+  <!--end::Container-->
+</ng-container>

@@ -1,0 +1,29 @@
+.header-text {
+    font-size: 30px;
+ }
+
+.card.card-custom.first{
+    height: 225px;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+}
+
+.integration-card {
+    height: 120px;
+    background-color: white;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    animation: test 40s linear infinite;
+    margin: 7.5px 7.5px 7.5px 7.5px;
+  }
+  
+  @keyframes test {
+    100% { transform: translateY(400px); }
+  }
+
+.card.card-custom.second{
+    height: 420px;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+}
+
+.line {
+    border-top: 1px solid #e0e0e0;
+  }
