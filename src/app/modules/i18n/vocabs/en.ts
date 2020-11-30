@@ -32,8 +32,8 @@ export const locale = {
       SERVICES_PRIME_SERVICES: 'Prime Services',
       SERVICES_PS_PRIME_TRADING: 'Prime Trading',
       SERVICES_PRIME_TRADING_EXP: 'Trade digital assets directly and anonymously from the safety and security of insured cold storage',
-      SERVICES_PS_PRIME_LANDING: 'Prime Lending',
-      SERVICES_PRIME_LANDING_EXP: 'Lend and borrow digital assets through BitGo.',
+      SERVICES_PS_PRIME_LENDING: 'Prime Lending',
+      SERVICES_PRIME_LENDING_EXP: 'Lend and borrow digital assets through BitGo.',
       SERVICES_PS_SETTLEMENT: 'Settlement',
       SERVICES_SETTLEMENT_EXP: 'A more efficient and secure way to settle digital assets.',
 
@@ -68,6 +68,70 @@ export const locale = {
       COMPANY_LEGAL: 'Legal',
       COMPANY_PRIVACY: 'Privacy'
     },
+    DASHBOARD:{
+      INTEGRATIONS_BREATH: 'INTEGRATIONS BREATH',
+      INTEGRATION_BREATH_HEADER: 'Support for the providers you already use',
+      INTEGRATION_BREATH_EXP: 'No matter what exchanges, OTC desks, or brokers you use for trade or what custodial services or wallets you use for custody, BitGo ingests and resolves your present and historical transactions automatically to unlock holistic views across performance, positions, and tax.',
+      ALL_INTEGRATIONS: 'All Integrations',
+      READ_CASE_STUDY: 'Read Case Study',
+      NEWSROOM : 'NEWSROOM'
+    },
+    FOOTER:{
+      NEWSLETTER: 'Keep up to date with our newsletter.',
+      EMAIL_PLACEHOLDER: 'Enter your email',
+      PRIVACY_EXP: 'We are committed to your privacy. BitGo uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information, check out our',
+      PRIVACY_POLICY: 'privacy policy',
+      SUPPORT: 'Support',
+      STATUS: 'Status',
+      BUG_BOUNTY: 'Bug Bounty',
+      HELP : 'Help',
+      SALES_INQUIRIES: 'Sales Inquires',
+      PRESS_INQUIRIES: 'Press Inquires',
+      SOCIAL: 'Social',
+      SUBMIT: 'Submit'
+    },
+    QUALIFIED_CUSTODY:{
+      HEADER: 'The world’s most secure and compliant digital asset custody solution',
+      HEADER_EXP: 'Regulated investors need regulated partners. Built on BitGo’s pioneering multi-signature security, BitGo Custody is purpose-built for institutions demanding the highest-level of security and compliance for their digital assets.',
+      SUB_GOLD : 'Gold Standard for Custody',
+      SUB_GOLD_EXP: 'Safeguard your digital assets with our qualified, insured cold storage custody at BitGo Trust Company—a regulated Trust Company under the Division of Banking in South Dakota. Cold storage assets are held in segregated accounts, insured and secured by BitGo’s battle-tested and peer-reviewed multi-signature security. Clients receive quarterly account statements and risk assessments. BitGo Trust is regularly audited by a governing body and required to meet rigorous standards for capitalization, anti-money laundering procedures, confidentiality, auditing, reporting, and storage.',
+      TABLE_1ST: '1st',
+      TABLE_1ST_EXP: 'Qualified Custodian purpose-built for digital assets',
+      TABLE_300Coins: 'Coins and tokens BitGo Custody supports',
+      TABLE_300Customers: 'Institutional custody customers',
+      BILLION : 'Billion',
+      TABLE_T_EXP: 'in transactions',
+      TABLE_150C: 'Crypto Exchanges using BitGo',
+      TABLE_VOL : 'Total Transaction Volume by Month',
+      TRANSFERRING_FUNDS: 'Transferring Funds',
+      TRANSFERRING_FUNDS_EXP: 'The process of transferring funds ensures both operational efficiency and security.',
+      STEP: 'Step',
+      STEP1: 'Customer requests a withdrawal.',
+      STEP2: 'BitGo performs an identity verification and generates a transaction.',
+      STEP3: 'The transaction is signed offline by M-of-N signatures, typically within 24 hours.',
+      STEP4: 'Once the final approval is received from the client, BitGo co-signs and the funds are transferred.',
+      INSURANCE_HEADER: 'BitGo Insurance',
+      INSURANCE_HEADER_EXP: 'Assets held in BitGo’s qualified custody at BitGo Trust are covered by BitGo’s $100 million policy when all private keys are held by BitGo Trust or BitGo, Inc.',
+      INSURANCE_UL: 'Assets are covered in the event of:',
+      INSURANCE_LI1: 'Third-party hacks of cold-storage environment',
+      INSURANCE_LI2: 'Copying or theft of private keys',
+      INSURANCE_LI3: 'Dishonest acts by BitGo employees',
+      INSURANCE_LI4: 'Loss of key material due to natural disasters',
+      INSURANCE_EXP: 'Clients also have the option to purchase additional excess insurance up to $500 million to supplement BitGo’s $100 million policy.',
+      COLD_STORAGE_HEADER: 'Earn income from assets in cold storage',
+      COLD_STORAGE_EXP: 'Generate passive income while keeping digital assets in insured cold storage. Best-in-class security architecture means each node runs on its own virtual machine and no client keys go online—ensuring seamless integration with BitGo Qualified Custody. Insurance provides protection for custodial assets for up to $100 million.',
+      INTEGRATIONS_BREATH_HEADER: 'Support for the assets you care about',
+      INTEGRATIONS_BREATH_EXP: 'Security designed to fit your needs',
+      HOT_COLD_WALLET: 'Hot and Cold Wallet Solutions'
+    },
+
+
+
+
+    //
+    //
+    //
+
     AUTH: {
       GENERAL: {
         OR: 'Or',
