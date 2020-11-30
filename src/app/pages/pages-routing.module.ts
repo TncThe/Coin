@@ -8,9 +8,9 @@ const routes: Routes = [
     component: LayoutComponent,
     children: [
       {
-        path: 'dashboard',
+        path: 'home',
         loadChildren: () =>
-          import('./dashboard/dashboard.module').then((m) => m.DashboardModule),
+          import('./home/home.module').then((m) => m.HomeModule),
       },
       {
         path: 'signup',
@@ -22,22 +22,6 @@ const routes: Routes = [
         path: 'services',
         loadChildren: () =>
           import('./services/services.module').then((m) => m.ServicesModule),
-      },
-
-
-
-
-
-
-
-
-
-
-      //
-      {
-        path: 'builder',
-        loadChildren: () =>
-          import('./builder/builder.module').then((m) => m.BuilderModule),
       },
       {
         path: 'ecommerce',
@@ -61,29 +45,8 @@ const routes: Routes = [
           ),
       },
       {
-        path: 'ngbootstrap',
-        loadChildren: () =>
-          import('../modules/ngbootstrap/ngbootstrap.module').then(
-            (m) => m.NgbootstrapModule
-          ),
-      },
-      {
-        path: 'wizards',
-        loadChildren: () =>
-          import('../modules/wizards/wizards.module').then(
-            (m) => m.WizardsModule
-          ),
-      },
-      {
-        path: 'material',
-        loadChildren: () =>
-          import('../modules/material/material.module').then(
-            (m) => m.MaterialModule
-          ),
-      },
-      {
         path: '',
-        redirectTo: 'dashboard',
+        redirectTo: 'home',
         pathMatch: 'full',
       },
       {
