@@ -3,13 +3,13 @@ export function getServerConfig (isDev: boolean): any {
 }
 
 let prodServers = {
-    //hostUrl : 'http://localhost:8080',
-    hostUrl : 'http://51.89.43.177:80',
+    hostUrl : 'http://localhost:8080',
+    //hostUrl : 'http://51.89.43.177:80',
 }
 
 let devServers = {
-    //hostUrl : 'http://localhost:8080',
-    hostUrl : 'http://51.89.43.177:80',
+    hostUrl : 'http://localhost:8080',
+    //hostUrl : 'http://51.89.43.177:80',
 }
 
 

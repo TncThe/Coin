@@ -23,7 +23,7 @@ namespace coin
                 .UseStartup<Startup>()
                 .UseKestrel((options) => {
                     //Prod. port 
-                    options.Listen(IPAddress.Any, 80);
+                    //options.Listen(IPAddress.Any, 80);
                 });
     }
 }

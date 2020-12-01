@@ -13,6 +13,7 @@
   overflow: hidden;
   animation: marquee 25s linear infinite;
 }
+
 .marquee div:hover {
     animation-play-state: paused;
     cursor: pointer;
@@ -38,6 +39,11 @@
   border-top: 1px solid #e0e0e0;
 }
 
-.card.card-custom-bottom {
-  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+.services {
+  height: 225px;
+}
+
+.news {
+  height: 80px;
+  background-color: transparent;
 }
