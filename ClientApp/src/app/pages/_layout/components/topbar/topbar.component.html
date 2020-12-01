@@ -1,18 +1,15 @@
-<ng-container *ngIf="extrasLanguagesDisplay">
-  <app-language-selector style="margin-top: 20px"></app-language-selector>
-</ng-container>
 
 <ng-container *ngIf="extrasLanguagesDisplay">
   <div class="topbar-item">
     <button
       href="#"
-      class="btn btn-hover-transparent-white font-weight-bold mr-1"
+      class="btn btn btn-white font-weight-bold mr-1"
     >
       {{ "SHARED.LOG_IN_BUTTON" | translate }}
     </button>
     <button
       href="#"
-      class="btn btn-hover-transparent-white font-weight-bold mr-1"
+      class="btn btn-white font-weight-bold mr-1"
       routerLink="signup"
     >
       {{ "SHARED.SIGN_UP_BUTTON" | translate }}
@@ -21,6 +18,10 @@
       {{ "SHARED.CONNECT_WITH_US" | translate }}
     </button>
   </div>
+</ng-container>
+
+<ng-container *ngIf="extrasLanguagesDisplay">
+  <app-language-selector style="margin-top: 20px"></app-language-selector>
 </ng-container>
 
 <ng-container *ngIf="extrasUserDisplay">

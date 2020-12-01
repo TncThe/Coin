@@ -1,11 +1,5 @@
-
-p {
-  margin-bottom: 0;
-}
-
 .marquee {
   height: 50px;
-  width: 100%;
   overflow: hidden;
   position: relative;
   font-size: large;
@@ -13,7 +7,6 @@ p {
 
 .marquee div {
   display: flex;
-  width: 100%;
   height: 50px;
   padding-top: 15px;  
   position: relative;
@@ -31,6 +24,7 @@ p {
   margin-right: 25px;
   white-space: nowrap; 
 }
+
 .marquee span:hover {
     color: red;
 }
@@ -40,27 +34,10 @@ p {
   100% { left: -100%; }
 }
 
-.header-text {
-   font-size: 30px;
-}
-
-.card.card-custom{
-    height: 225px;
-    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
-}
-
-.integration-card {
-  height: 120px;
-  background-color: white;
-  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
-  animation: test 40s linear infinite;
-  margin: 7.5px 7.5px 7.5px 7.5px;
-}
-
-@keyframes test {
-  100% { transform: translateY(400px); }
-}
-
 .line {
   border-top: 1px solid #e0e0e0;
+}
+
+.card.card-custom-bottom {
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
 }

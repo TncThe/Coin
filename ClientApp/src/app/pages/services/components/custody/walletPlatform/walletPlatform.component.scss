@@ -1,9 +1,7 @@
-.header-text {
-    font-size: 30px;
- }
+.line {
+  border-top: 1px solid #e0e0e0;
+}
 
-
-.card.card-custom.second{
-    height: 420px;
-    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+.card.card-custom {
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
 }

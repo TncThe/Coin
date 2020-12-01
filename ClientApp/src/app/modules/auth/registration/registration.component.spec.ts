@@ -28,7 +28,7 @@ const fakeRoutes: Routes = [
   { path: 'auth/login', component: LoginComponent },
   { path: 'auth/logout', component: LogoutComponent },
   { path: 'auth/registration', component: RegistrationComponent },
-  { path: '', redirectTo: 'auth/login', pathMatch: 'full' },
+  //{ path: '', redirectTo: 'auth/login', pathMatch: 'full' },
 ];
 
 class FakeAuthService {
