@@ -151,6 +151,36 @@ export const locale = {
       HOT_COLD_WALLET_HEADER: 'REGULATED CUSTODIAL, NON-CUSTODIAL, AND WALLET SOLUTIONS',
       HOT_COLD_WALLET: 'Hot and Cold Wallet Solutions'
     },
+    PRIME_TRADING: {
+      HEADER: 'Trade digital assets from insured cold storage',
+      HEADER_EXP: 'BitGo Prime Trading combines access to liquidity with best-in-class security while connecting to multiple liquidity venues and allowing clients to trade directly and anonymously from the safety of insured, cold storage.',
+      FIRST_OF_ITS_KIND: 'FIRST OF ITS KIND',
+      FIRST_OF_ITS_KIND_HEADER : 'Security meets liquidity',
+      FIRST_OF_ITS_KIND_HEADER_EXP: 'Sourcing from a deep pool of liquidity across a number of leading exchanges and market makers, BitGo Prime trades on a riskless principal basis, providing liquidity to clients directly on a non-disclosed basis.',
+      NO_CONFLICTS_OF_INTEREST: 'NO CONFLICTS OF INTEREST',
+      NO_CONFLICTS_OF_INTEREST_HEADER : 'Your trusted partner',
+      NO_CONFLICTS_OF_INTEREST_HEADER_EXP: 'BitGo Prime is the contra-side of every trade. We don’t operate a crypto exchange nor do we act as a broker, enabling BitGo Prime to focus on sourcing and securing liquidity to trade with our institutional clients.',
+      A_CONNECTED_EXPERIENCE: 'A CONNECTED EXPERIENCE',
+      A_CONNECTED_EXPERIENCE_HEADER : 'Fully integrated experience',
+      A_CONNECTED_EXPERIENCE_HEADER_EXP: 'BitGo Prime is fully integrated with our institutional-grade custody, portfolio management, and tax solutions—creating a connected, front-to-back user experience. Clients can gain insight into execution-level details and track cost basis, realized gains/losses, and tax lots in real-time.',
+      RELATIONSHIP_BASED_TRADING: 'RELATIONSHIP-BASED TRADING',
+      RELATIONSHIP_BASED_TRADING_HEADER : 'Dedicated account coverage',
+      RELATIONSHIP_BASED_TRADING_HEADER_EXP: 'Built from the ground up by Wall Street veterans, our dedicated and experienced client service team delivers BitGo Prime’s full range of capabilities from initial onboarding to day-to-day service coverage.',
+      BITSTAMP_EXP: 'BitGo has invested the time and energy to bring the best financial tools from mainstream treasury management to digital currency, and it shows in the quality of their products and services.',
+      BITSTAMP_PARTNER: 'Co-Founder and CEO, Bitstamp',
+    },
+    PRIME_LENDING: {
+      HEADER: 'Borrow and lend securely and efficiently',
+      HEADER_EXP: 'BitGo Prime provides access to our own inventory in addition to sourcing digital assets through an established network of high net-worth individuals, family offices, and institutional lenders.',
+      BORROW_AND_LEND_WITH_CONFIDENCE: 'BORROW AND LEND WITH CONFIDENCE',
+      BORROW_AND_LEND_WITH_CONFIDENCE_HEADER: 'Trusted Intermediary',
+      BORROW_AND_LEND_WITH_CONFIDENCE_HEADER_EXP: 'As the leader in digital asset financial services, BitGo is a regulated entity committed to upholding the highest standards of compliance and security. BitGo employs a dedicated risk manager to provide real-time risk management and help evaluate market risk, counterparty exposure risk, concentration risk, and collateral coverage. BitGo also provides detailed, customized reporting for all clients.',
+      EXECUTE_WITH_SPEED: 'EXECUTE WITH SPEED',
+      EXECUTE_WITH_SPEED_HEADER: 'Stable Supply of Coins',
+      EXECUTE_WITH_SPEED_HEADER_EXP: 'Our exclusive relationships with institutional-grade lenders allows us to provide our clients with access to a deep supply of digital assets. Coupled with access to our own internal inventory, BitGo is able to procure assets quickly and efficiently—enabling clients to capitalize on market opportunities.',
+      LOANS_ARE_COLLATERALIZED: 'LOANS ARE COLLATERALIZED',
+      LOANS_ARE_COLLATERALIZED_HEADER: 'Active lending currencies'
+    },
     AUTH: {
       GENERAL: {
         OR: 'Or',

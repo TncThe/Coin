@@ -9,12 +9,17 @@ import { TranslateModule } from '@ngx-translate/core';
 import { SelfManagedComponent } from './components/custody/selfManaged/selfManaged.component';
 import { ServicesRoutingModule } from './services-routing.module';
 import { GeneralModule } from 'src/app/_metronic/partials/content/general/general.module';
+import { PrimeTradingComponent } from './components/primeServices/primeTrading/primeTrading.component';
+import { PrimeLendingComponent } from './components/primeServices/primeLending/primeLending.component';
 
 @NgModule({
   declarations:[
     SelfManagedComponent,
     WalletPlatformComponent,
     QualifiedCustodyComponent,
+    
+    PrimeTradingComponent,
+    PrimeLendingComponent
   ],
   imports: [
     InlineSVGModule,

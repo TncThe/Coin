@@ -29,7 +29,7 @@ export const locale = {
       SERVICES_CUSTODY_SELF_MANAGED: 'Otonom Hesap',
       SERVICES_PRIME_SERVICES: 'Başlıca Servisler',
       SERVICES_PS_PRIME_TRADING: 'Ticaret',
-      SERVICES_PS_PRIME_LENDING: 'Faiz? Kredi?',
+      SERVICES_PS_PRIME_LENDING: 'Kredi?',
       SERVICES_PS_SETTLEMENT: 'Mutabakat',
       SERVICES_PORTFOLIO_TOOLS: 'Portföy Araçları',
       SERVICES_PT_PORTFOLIO_MANAGEMENT : 'Portföy Yönetimi',
@@ -68,7 +68,7 @@ export const locale = {
       SERVICES_PRIME_SERVICES: 'Başlıca Servisler',
       SERVICES_PS_PRIME_TRADING: 'Ticaret',
       SERVICES_PRIME_TRADING_EXP: 'Sigortalı soğuk depolamanın güvenliği ve güvenliğinden dijital varlıkları doğrudan ve anonim olarak ticaret yapın',
-      SERVICES_PS_PRIME_LENDING: 'Faiz? Kredi?',
+      SERVICES_PS_PRIME_LENDING: 'Kredi',
       SERVICES_PRIME_LENDING_EXP: 'BitGo aracılığıyla dijital varlıkları ödünç verin ve ödünç alın.',
       SERVICES_PS_SETTLEMENT: 'Mutabakat',
       SERVICES_SETTLEMENT_EXP: 'Dijital varlıkların tasfiesinin daha verimli ve güvenli bir yolu.',
@@ -151,13 +151,36 @@ export const locale = {
       HOT_COLD_WALLET_HEADER: 'DÜZENLENMİŞ ÖZEL, ÖZEL OLMAYAN VE CÜZDAN ÇÖZÜMLERİ',
       HOT_COLD_WALLET: 'Sıcak ve Soğuk Cüzdan Çözümleri'
     },
-
-
-
-
-    //
-    //
-    //
+    PRIME_TRADING: {
+      HEADER: 'Sigortalı soğuk depodan dijital varlık ticareti yapın',
+      HEADER_EXP: 'BitGo Prime Trading, likiditeye erişimi sınıfının en iyisi güvenlikle birleştirirken birden fazla likidite mekanına bağlanır ve müşterilerin sigortalı, soğuk deponun güvenliğinden doğrudan ve anonim olarak ticaret yapmasına izin verir.',
+      FIRST_OF_ITS_KIND: 'TÜRÜNÜN İLK ÖRNEĞİ',
+      FIRST_OF_ITS_KIND_HEADER : 'Güvenlik likidite ile buluşuyor',
+      FIRST_OF_ITS_KIND_HEADER_EXP: 'Bir dizi önde gelen borsa ve piyasa yapıcı arasında derin bir likidite havuzundan tedarik edilen BitGo Prime, risksiz bir ilkesel bazda işlem yapar ve müşterilere doğrudan açıklanmayan bir şekilde likidite sağlar.',
+      NO_CONFLICTS_OF_INTEREST: 'ÇIKAR ÇATIŞMASI YOK',
+      NO_CONFLICTS_OF_INTEREST_HEADER : 'Güvenilir ortağınız',
+      NO_CONFLICTS_OF_INTEREST_HEADER_EXP: 'BitGo Prime, her ticaretin karşı tarafıdır. BitGo Prime \'ın kurumsal müşterilerimizle ticaret yapmak için kaynak bulmaya ve likidite sağlamaya odaklanmasına olanak tanıyan bir kripto borsası işletmiyoruz ve bir komisyoncu olarak hareket etmiyoruz.',
+      A_CONNECTED_EXPERIENCE: 'BAĞLANTILI BİR DENEYİM',
+      A_CONNECTED_EXPERIENCE_HEADER : 'Tamamen entegre deneyim',
+      A_CONNECTED_EXPERIENCE_HEADER_EXP: 'BitGo Prime, kurumsal düzeyde saklama, portföy yönetimi ve vergi çözümlerimizle tamamen entegre olup bağlantılı, önden arkaya bir kullanıcı deneyimi yaratır. Müşteriler, gerçek zamanlı olarak uygulama düzeyinde ayrıntılar hakkında fikir edinebilir ve maliyet temelini, gerçekleşen kazançları / kayıpları ve vergi lotlarını takip edebilir.',
+      RELATIONSHIP_BASED_TRADING: 'İLİŞKİLERE DAYALI TİCARET',
+      RELATIONSHIP_BASED_TRADING_HEADER : 'Özel hesap kapsamı',
+      RELATIONSHIP_BASED_TRADING_HEADER_EXP: 'Wall Street gazileri tarafından sıfırdan inşa edilen, kendini işine adamış ve deneyimli müşteri hizmetleri ekibimiz, BitGo Prime \'ın ilk işe alımdan günlük hizmet kapsamına kadar tüm yeteneklerini sunar.',
+      BITSTAMP_EXP: 'BitGo, ana akım hazine yönetiminden dijital para birimine en iyi finansal araçları getirmek için zaman ve enerji harcadı ve ürün ve hizmetlerinin kalitesini gösteriyor.',
+      BITSTAMP_PARTNER: 'Kurucu Ortak ve CEO, Bitstamp',
+    },
+    PRIME_LENDING: {
+      HEADER: 'Güvenli ve verimli bir şekilde borç alın ve borç verin',
+      HEADER_EXP: 'BitGo Prime, yüksek net değerli bireyler, aile ofisleri ve kurumsal kredi verenlerden oluşan yerleşik bir ağ aracılığıyla dijital varlıkları tedarik etmenin yanı sıra kendi envanterimize erişim sağlar.',
+      BORROW_AND_LEND_WITH_CONFIDENCE: 'GÜVENLE BORÇ VE KREDİ',
+      BORROW_AND_LEND_WITH_CONFIDENCE_HEADER: 'Güvenilir Aracı Kurum',
+      BORROW_AND_LEND_WITH_CONFIDENCE_HEADER_EXP: 'Dijital varlık finansal hizmetlerinde lider olan BitGo, en yüksek uyumluluk ve güvenlik standartlarını korumayı taahhüt eden düzenlenmiş bir kuruluştur. BitGo, gerçek zamanlı risk yönetimi sağlamak ve piyasa riskini, karşı taraf maruz kalma riskini, konsantrasyon riskini ve teminat kapsamını değerlendirmeye yardımcı olmak için özel bir risk yöneticisi kullanır. BitGo ayrıca tüm istemciler için ayrıntılı, özelleştirilmiş raporlama sağlar.',
+      EXECUTE_WITH_SPEED: 'HIZLA UYGULA',
+      EXECUTE_WITH_SPEED_HEADER: 'Kararlı Para Arzı',
+      EXECUTE_WITH_SPEED_HEADER_EXP: 'Kurumsal düzeyde kredi verenlerle olan özel ilişkilerimiz, müşterilerimize derin bir dijital varlık kaynağına erişim sağlamamıza olanak tanır. Kendi dahili envanterimize erişimle birleştiğinde BitGo, varlıkları hızlı ve verimli bir şekilde tedarik edebilir - müşterilerin piyasa fırsatlarından yararlanmasını sağlar.',
+      LOANS_ARE_COLLATERALIZED: 'KREDİLER ÖDENMEKTEDİR',
+      LOANS_ARE_COLLATERALIZED_HEADER: 'Aktif kredi para birimleri'
+    },
     AUTH: {
       GENERAL: {
         OR: 'Veya',
