@@ -29,7 +29,7 @@ export const locale = {
       SERVICES_CUSTODY_SELF_MANAGED: 'Otonom Hesap',
       SERVICES_PRIME_SERVICES: 'Başlıca Servisler',
       SERVICES_PS_PRIME_TRADING: 'Ticaret',
-      SERVICES_PS_PRIME_LENDING: 'Kredi?',
+      SERVICES_PS_PRIME_LENDING: 'Kredi',
       SERVICES_PS_SETTLEMENT: 'Mutabakat',
       SERVICES_PORTFOLIO_TOOLS: 'Portföy Araçları',
       SERVICES_PT_PORTFOLIO_MANAGEMENT : 'Portföy Yönetimi',
